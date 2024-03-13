@@ -14,11 +14,11 @@ export default function Footer() {
         </Link>
       </h1>
       <p className="text-sm font-serif text-white text-center sm:text-left">
-        Copyright © 2024 Brissys Botox, all rights reserved.
+        Copyright  2024 Brissys Botox, all rights reserved.
       </p>
     </div>
     <div className="text-sm font-serif text-white text-center">
-      7054 Highlands Ln, Tyler, TX 75703
+      7054 Highlands Ln Tyler TX 75703
     </div>
     <div className="flex justify-center sm:justify-end gap-4 text-white text-2xl lg:text-3xl pr-0 sm:pr-4">
       <Link
