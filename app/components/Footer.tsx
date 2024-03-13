@@ -10,11 +10,11 @@ export default function Footer() {
     <div className="flex flex-col items-center sm:items-start pl-0 sm:pl-4">
       <h1 className="text-lg font-bold font-serif text-white mb-2">
         <Link href="/" className="text-white/90 no-underline hover:text-rosequartz">
-          Brissy's Botox
+          Brissys Botox
         </Link>
       </h1>
       <p className="text-sm font-serif text-white text-center sm:text-left">
-        Copyright © 2024 Brissy's Botox, all rights reserved.
+        Copyright © 2024 Brissys Botox, all rights reserved.
       </p>
     </div>
     <div className="text-sm font-serif text-white text-center">
