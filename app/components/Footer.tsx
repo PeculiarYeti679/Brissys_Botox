@@ -21,20 +21,23 @@ export default function Footer() {
           7054 Highlands Ln Tyler TX 75703
         </div>
         <div className="flex justify-center sm:justify-end gap-4 text-2xl lg:text-3xl">
-          <Link href="https://www.instagram.com"  rel="noopener noreferrer">
-          <p className="hover:text-rosequartz">
-              <IoLogoInstagram />
-            </p>
+        <Link target="_blank" rel="noopener noreferrer"
+            className="text-white/90 hover:text-rosequartz"
+            href="https://www.instagram.com"
+          >
+            <IoLogoInstagram />
           </Link>
-          <Link href="https://www.facebook.com"  rel="noopener noreferrer">
-          <p className="hover:text-rosequartz">
-              <FaFacebookF />
-            </p>
+          <Link target="_blank" rel="noopener noreferrer"
+            className="text-white/90 hover:rosequartz"
+            href="https://www.facebook.com"
+          >
+            <FaFacebookF />
           </Link>
-          <Link href="https://luxemedspatyler.com"  rel="noopener noreferrer">
-            <p className="hover:text-rosequartz">
-              <TbPlant2 />
-            </p>
+          <Link target="_blank" rel="noopener noreferrer"
+            className="text-white/90 hover:rosequartz"
+            href="https://luxemedspatyler.com"
+          >
+            <TbPlant2 />
           </Link>
         </div>
       </div>
