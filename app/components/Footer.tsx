@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-3 gap-4 items-center text-white">
         <div className="flex flex-col items-center sm:items-start">
           <h1 className="text-lg font-bold font-serif mb-2">
-            <Link href="/" passHref>
+            <Link href="/" >
               <p className="text-white/90 no-underline hover:text-rosequartz">Brissys Botox</p>
             </Link>
           </h1>
