@@ -2,17 +2,23 @@ import Link from "next/link";
 import { TbPlant2 } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <nav className="bg-coral p-4 sticky top-0 drop-shadow-xl z-10">
-      <div className="md:px-6 prose prose-xl mx-auto flex justify-between flex-col sm:flex-row">
-        <h1 className="text-3xl font-bold  font-serif text-white grid place-content-center mb-2 md:mb-0">
+      <div className="md:px-2 prose prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
+        <h1>
           <Link
             href="/"
             className="text-white/90 no-underline hover:rosequartz"
           >
-            Brissys Botox
+             <Image
+      src="/Brissy_Logo-removebg-preview.png"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+    />
           </Link>
         </h1>
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-2xl lg:text-3xl">
