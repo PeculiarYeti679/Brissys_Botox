@@ -2,12 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-rosequartz h-full">
+    <main className="min-h-screen bg-rosequartz ">
  hello
- <div></div>
-        <div> </div>
-        <div></div>
-        <div></div>
+
   </main>
   );
 }

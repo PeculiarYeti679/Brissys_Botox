@@ -35,6 +35,13 @@ export default function Navbar() {
             >
               Blog
             </Link>
+
+            <Link
+              className="text-white/90  font-serif hover:rosequartz"
+              href="/faqs"
+            >
+              FAQS
+            </Link>
           </div>
 
           <Link target="_blank" rel="noopener noreferrer"

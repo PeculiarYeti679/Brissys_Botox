@@ -1,6 +1,6 @@
 export default function Blog() {
     return (
-      <main className="bg-rose-quartz h-full">
+      <main className="min-h-screen bg-rosequartz ">
    hello from blog
     </main>
     );
