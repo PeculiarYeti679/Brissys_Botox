@@ -21,18 +21,18 @@ export default function Footer() {
           7054 Highlands Ln Tyler TX 75703
         </div>
         <div className="flex justify-center sm:justify-end gap-4 text-2xl lg:text-3xl">
-          <Link href="https://www.instagram.com" passHref>
-            <p target="_blank" rel="noopener noreferrer" className="hover:text-rosequartz">
+          <Link href="https://www.instagram.com"  rel="noopener noreferrer">
+          <p className="hover:text-rosequartz">
               <IoLogoInstagram />
             </p>
           </Link>
-          <Link href="https://www.facebook.com" passHref>
-            <p target="_blank" rel="noopener noreferrer" className="hover:text-rosequartz">
+          <Link href="https://www.facebook.com"  rel="noopener noreferrer">
+          <p className="hover:text-rosequartz">
               <FaFacebookF />
             </p>
           </Link>
-          <Link href="https://luxemedspatyler.com" passHref>
-            <p target="_blank" rel="noopener noreferrer" className="hover:text-rosequartz">
+          <Link href="https://luxemedspatyler.com"  rel="noopener noreferrer">
+            <p className="hover:text-rosequartz">
               <TbPlant2 />
             </p>
           </Link>
