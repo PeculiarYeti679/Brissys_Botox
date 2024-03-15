@@ -2,9 +2,6 @@
 export default function Services({icon, service, description}:{icon:any, service:string, description:string}) {
 
     return(
-      
-
-
         <div className="bg-coral max-w-md p-6 border border-dustyrose  rounded-lg shadow ">
             <svg className="w-7 h-7"viewBox="0 0 20 20" >
                 {icon}
@@ -14,8 +11,5 @@ export default function Services({icon, service, description}:{icon:any, service
             </a>
             <p className="mb-3 font-normal text-cream">{description}</p>
         </div>
-
-
-
     )
 }

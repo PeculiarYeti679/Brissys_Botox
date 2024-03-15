@@ -5,7 +5,9 @@ import { GiLoveInjection } from "react-icons/gi";
 export default function About() {
     return (
       <div className="min-h-screen bg-rosequartz "> 
-      <h1 className="font-serif text-5xl py-6">My Services</h1>
+       <h1 className="p-10 grid justify-items-center text-5xl font-serif">
+        My Services
+      </h1>
       <div className=" place-content-center grid col-start-2 col-span-4 gap-y-10 ">
       <Services icon={<GiLips/>}
       service="Lip Filler"

@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className="bg-coral p-4 sticky top-0 drop-shadow-xl z-10">
-      <div className="sm:px-0md:px-2 prose prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
+      <div className="sm:pxmd:px-2 prose prose-xl mx-auto flex justify-between flex-col sm:flex-row ">
         <h1>
           <Link
             href="/"
@@ -40,7 +40,7 @@ export default function Navbar() {
               className="text-white/90  font-serif hover:rosequartz"
               href="/faqs"
             >
-              FAQS
+              FAQs
             </Link>
           </div>
 
