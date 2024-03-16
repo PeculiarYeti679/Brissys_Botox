@@ -33,6 +33,12 @@ const links = [
   },
 ];
 
+const socialLinks = [
+  { id: 1, href: "https://www.instagram.com", icon: <IoLogoInstagram />, ariaLabel: "Instagram" },
+  { id: 2, href: "https://www.facebook.com", icon: <FaFacebookF />, ariaLabel: "Facebook" },
+  { id: 3, href: "https://luxemedspatyler.com", icon: <TbPlant2 />, ariaLabel: "Website" },
+];
+
 return (
   <div className="sticky flex justify-between items-center w-full h-20 px-4 text-white bg-coral top-0 drop-shadow-xl z-10">
     <div>
@@ -62,7 +68,13 @@ return (
           <Link href={link}>{link}</Link>
         </li>
       ))}
-
+      {socialLinks.map(({ id, href, icon, ariaLabel }) => (
+          <li key={id} className="px-4">
+            <Link href={href} aria-label={ariaLabel} target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-rosequartz">
+              {icon}
+            </Link>
+          </li>
+        ))}
     </ul>
     
 
@@ -83,8 +95,16 @@ return (
             <Link onClick={() => setNav(!nav)} href={link}>
               {link}
             </Link>
-          </li>
+
+          </li> 
         ))}
+        <div className="flex justify-center mt-4">
+            {socialLinks.map(({ id, href, icon, ariaLabel }) => (
+              <a key={id} href={href} aria-label={ariaLabel} target="_blank" rel="noopener noreferrer" className="mx-2 text-4xl text-white hover:text-rosequartz">
+                {icon}
+              </a>
+            ))}
+          </div>
       </ul>
     )}
   </div>
